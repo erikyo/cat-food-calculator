@@ -1,0 +1,21 @@
+{
+  "Active": "Attivo",
+  "Normal": "Normale",
+  "Kitten": "Gattino",
+  "Pregnant": "Incinta",
+  "Lactating": "Allattamento",
+  "Indoor": "Da interno",
+  "Weight loss": "Perdita di peso",
+  "Weight gain": "Aumento di peso",
+  "Cat Food Calculator": "Calcolatore di Cibo per Gatti",
+  "recommendation1": "Questo calcolatore è uno strumento generico e deve essere utilizzato solo come guida. Per una valutazione accurata delle esigenze dietetiche del tuo gatto, consulta un veterinario o un nutrizionista per animali qualificato.",
+  "recommendation2": "Chiedi al tuo veterinario le dimensioni specifiche delle porzioni e dividi la quantità giornaliera in due, tre o quattro piccoli pasti, a seconda del tuo programma. Non fare affidamento sulle linee guida per l'alimentazione sull'etichetta del prodotto per più di un paio di settimane, poiché ciò potrebbe portare a sovralimentazione. È importante seguire una porzione raccomandata in base alle esigenze specifiche del tuo gatto.",
+  "Age (months)": "Età (mesi)",
+  "Age (years)": "Età (anni)",
+  "Cat Weight (kg)": "Peso del Gatto (kg)",
+  "Wet Food Calories (per 100g)": "Calorie Cibo Umido (per 100g)",
+  "Dry Food Calories (per 100g)": "Calorie Cibo Secco (per 100g)",
+  "Wet/Dry Ratio": "Rapporto Umido/Secco",
+  "Dry Food": "Cibo Secco",
+  "Wet Food": "Cibo Umido"
+}

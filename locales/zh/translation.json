@@ -1,0 +1,21 @@
+{
+  "Active": "活跃",
+  "Normal": "正常",
+  "Kitten": "小猫",
+  "Pregnant": "怀孕",
+  "Lactating": "哺乳",
+  "Indoor": "室内",
+  "Weight loss": "减肥",
+  "Weight gain": "增重",
+  "Cat Food Calculator": "猫粮计算器",
+  "recommendation1": "此计算器为通用工具，仅供参考。要准确评估您的猫咪的饮食需求，请咨询兽医或专业宠物营养师。",
+  "recommendation2": "请咨询您的兽医获取特定的份量建议，并根据您的时间表将每日食物分成两餐、三餐或四餐。不要依赖产品标签上的喂养指南超过几周时间，否则可能会导致过度喂养。根据猫咪的具体需求遵循推荐的份量非常重要。",
+  "Age (months)": "年龄（月）",
+  "Age (years)": "年龄（年）",
+  "Cat Weight (kg)": "猫体重（kg）",
+  "Wet Food Calories (per 100g)": "湿粮热量（每100克）",
+  "Dry Food Calories (per 100g)": "干粮热量（每100克）",
+  "Wet/Dry Ratio": "湿/干比例",
+  "Dry Food": "干粮",
+  "Wet Food": "湿粮"
+}

@@ -1,0 +1,21 @@
+{
+  "Active": "Activo",
+  "Normal": "Normal",
+  "Kitten": "Gatito",
+  "Pregnant": "Embarazada",
+  "Lactating": "Lactante",
+  "Indoor": "Interior",
+  "Weight loss": "Pérdida de peso",
+  "Weight gain": "Aumento de peso",
+  "Cat Food Calculator": "Calculadora de Alimento para Gatos",
+  "recommendation1": "Esta calculadora es una herramienta general y debe usarse solo como guía. Para una evaluación precisa de las necesidades dietéticas de su gato, consulte a un veterinario o a un nutricionista de mascotas calificado.",
+  "recommendation2": "Pida a su veterinario tamaños de porciones específicos y divida la cantidad diaria en dos, tres o cuatro comidas pequeñas, dependiendo de su horario. No confíe en las pautas de alimentación en la etiqueta del producto por más de un par de semanas, ya que esto puede llevar a la sobrealimentación. Es importante seguir una porción recomendada según las necesidades específicas de su gato.",
+  "Age (months)": "Edad (meses)",
+  "Age (years)": "Edad (años)",
+  "Cat Weight (kg)": "Peso del Gato (kg)",
+  "Wet Food Calories (per 100g)": "Calorías Comida Húmeda (por 100g)",
+  "Dry Food Calories (per 100g)": "Calorías Comida Seca (por 100g)",
+  "Wet/Dry Ratio": "Proporción Húmedo/Seco",
+  "Dry Food": "Comida Seca",
+  "Wet Food": "Comida Húmeda"
+}

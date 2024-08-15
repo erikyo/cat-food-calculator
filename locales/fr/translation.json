@@ -1,0 +1,21 @@
+{
+  "Active": "Actif",
+  "Normal": "Normal",
+  "Kitten": "Chaton",
+  "Pregnant": "Enceinte",
+  "Lactating": "Allaitant",
+  "Indoor": "D'intérieur",
+  "Weight loss": "Perte de poids",
+  "Weight gain": "Prise de poids",
+  "Cat Food Calculator": "Calculateur de Nourriture pour Chats",
+  "recommendation1": "Ce calculateur est un outil général et doit être utilisé uniquement à titre indicatif. Pour une évaluation précise des besoins alimentaires de votre chat, veuillez consulter un vétérinaire ou un nutritionniste pour animaux qualifié.",
+  "recommendation2": "Demandez à votre vétérinaire des tailles de portions spécifiques et divisez la quantité quotidienne en deux, trois ou quatre petits repas, en fonction de votre emploi du temps. Ne vous fiez pas aux directives d'alimentation sur l'étiquette du produit pendant plus de quelques semaines, car cela peut entraîner une suralimentation. Il est important de suivre une portion recommandée en fonction des besoins spécifiques de votre chat.",
+  "Age (months)": "Âge (mois)",
+  "Age (years)": "Âge (ans)",
+  "Cat Weight (kg)": "Poids du Chat (kg)",
+  "Wet Food Calories (per 100g)": "Calories Nourriture Humide (par 100g)",
+  "Dry Food Calories (per 100g)": "Calories Nourriture Sèche (par 100g)",
+  "Wet/Dry Ratio": "Ratio Humide/Sec",
+  "Dry Food": "Nourriture Sèche",
+  "Wet Food": "Nourriture Humide"
+}

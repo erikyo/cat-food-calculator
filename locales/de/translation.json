@@ -1,0 +1,21 @@
+{
+  "Active": "Aktiv",
+  "Normal": "Normal",
+  "Kitten": "Kätzchen",
+  "Pregnant": "Schwanger",
+  "Lactating": "Laktierend",
+  "Indoor": "Innenbereich",
+  "Weight loss": "Gewichtsverlust",
+  "Weight gain": "Gewichtszunahme",
+  "Cat Food Calculator": "Katzenfutter Rechner",
+  "recommendation1": "Dieser Rechner ist ein allgemeines Hilfsmittel und sollte nur als Leitfaden verwendet werden. Für eine genaue Einschätzung der Ernährungsbedürfnisse Ihrer Katze konsultieren Sie bitte einen Tierarzt oder einen qualifizierten Ernährungsberater für Haustiere.",
+  "recommendation2": "Fragen Sie Ihren Tierarzt nach spezifischen Portionsgrößen und teilen Sie die tägliche Menge je nach Ihrem Zeitplan in zwei, drei oder vier kleine Mahlzeiten auf. Verlassen Sie sich nicht länger als ein paar Wochen auf die Fütterungshinweise auf dem Produktetikett, da dies zu Überfütterung führen kann. Es ist wichtig, eine empfohlene Portion basierend auf den spezifischen Bedürfnissen Ihrer Katze zu befolgen.",
+  "Age (months)": "Alter (Monate)",
+  "Age (years)": "Alter (Jahre)",
+  "Cat Weight (kg)": "Katzengewicht (kg)",
+  "Wet Food Calories (per 100g)": "Nassfutter Kalorien (pro 100g)",
+  "Dry Food Calories (per 100g)": "Trockenfutter Kalorien (pro 100g)",
+  "Wet/Dry Ratio": "Nass/Trocken Verhältnis",
+  "Dry Food": "Trockenfutter",
+  "Wet Food": "Nassfutter"
+}

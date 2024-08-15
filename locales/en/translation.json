@@ -1,0 +1,21 @@
+{
+  "Active": "Active",
+  "Normal": "Normal",
+  "Kitten": "Kitten",
+  "Pregnant": "Pregnant",
+  "Lactating": "Lactating",
+  "Indoor": "Indoor",
+  "Weight loss": "Weight loss",
+  "Weight gain": "Weight gain",
+  "Cat Food Calculator": "Cat Food Calculator",
+  "recommendation1": "This calculator is a general utility and should be used as a guide only. For an accurate assessment of your cat's dietary needs, please consult a veterinarian or a qualified pet nutritionist.",
+  "recommendation2": "Ask your vet for specific portion sizes and divide the daily amount into two, three, or four small meals, depending on your schedule. Do not rely on the feeding guidelines on the product label for more than a couple of weeks, as this can lead to overfeeding. It's important to follow a recommended portion based on your cat's specific needs.",
+  "Age (months)": "Age (months)",
+  "Age (years)": "Age (years)",
+  "Cat Weight (kg)": "Cat Weight (kg)",
+  "Wet Food Calories (per 100g)": "Wet Food Calories (per 100g)",
+  "Dry Food Calories (per 100g)": "Dry Food Calories (per 100g)",
+  "Wet/Dry Ratio": "Wet/Dry Ratio",
+  "Dry Food": "Dry Food",
+  "Wet Food": "Wet Food"
+}
