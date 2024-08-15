@@ -154,8 +154,8 @@ const CatFoodCalculator = () => {
     }, [catType, age, weight, wetFoodCalories, dryFoodCalories, calculateFood]);
 
     return (
-        <div className="flex items-center justify-center h-full overflow-y-auto">
-            <div className="flex-1 bg-white p-6 md:p-8 max-w-[800px] border border-gray-200 md:rounded-lg rounded-none shadow dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+        <div className="flex align-top md:align-middle justify-center min-h-screen overflow-y-auto md:my-2 ">
+            <div className="flex-1 bg-white p-6 md:p-8 max-w-[800px] border border-gray-200 md:rounded-lg rounded-none shadow dark:bg-gray-800 dark:border-gray-700 dark:text-white m-auto">
                 <h1 className="md:text-4xl text-3xl font-bold mb-4">🐈 {t('Cat Food Calculator')}</h1>
                 <p className="my-4 text-sm text-gray-600 dark:text-gray-400">
                     {t('recommendation1')}<br/>
