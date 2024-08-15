@@ -154,17 +154,17 @@ const CatFoodCalculator = () => {
     }, [catType, age, weight, wetFoodCalories, dryFoodCalories, calculateFood]);
 
     return (
-        <div className="flex items-center justify-center h-screen">
-            <div className="flex-1 bg-white p-8 max-w-[800px] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <h1 className="text-4xl font-bold mb-4">🐈 {t('Cat Food Calculator')}</h1>
-                <p className="my-4 text-sm text-gray-600">
+        <div className="flex items-center justify-center h-full overflow-y-auto">
+            <div className="flex-1 bg-white p-6 md:p-8 max-w-[800px] border border-gray-200 md:rounded-lg rounded-none shadow dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+                <h1 className="md:text-4xl text-3xl font-bold mb-4">🐈 {t('Cat Food Calculator')}</h1>
+                <p className="my-4 text-sm text-gray-600 dark:text-gray-400">
                     {t('recommendation1')}<br/>
                     {t('recommendation2')}
                 </p>
 
                 <div className="flex flex-wrap mb-4">
                     {catTypeOptions.map((type) => (
-                        <div key={type.value} className="flex items-center w-1/2 mb-2">
+                        <div key={type.value} className="flex items-center mb:w-1/2 w-full mb-2">
                             <input
                                 type="radio"
                                 id={type.value}
@@ -182,7 +182,7 @@ const CatFoodCalculator = () => {
                 <p>
                     <label className="block mb-2">{catType === 'kitten' ? t('Age (months)') : t('Age (years)')}</label>
                     <input
-                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full"
+                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full dark:placeholder-gray-400 dark:text-gray-500"
                         type="number"
                         placeholder={catType === 'kitten' ? "Age (months)" : "Age (years)"}
                         value={age}
@@ -193,7 +193,7 @@ const CatFoodCalculator = () => {
                 <p>
                     <label className="block mb-2">{t('Cat Weight (kg)')}</label>
                     <input
-                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full"
+                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full dark:placeholder-gray-400 dark:text-gray-500"
                         type="number"
                         placeholder={t('Cat Weight (kg)')}
                         value={weight}
@@ -204,7 +204,7 @@ const CatFoodCalculator = () => {
                 <p>
                     <label className="block mb-2">{t('Wet Food Calories (per 100g)')}</label>
                     <input
-                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full"
+                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full dark:placeholder-gray-400 dark:text-gray-500"
                         type="number"
                         placeholder={t('Wet Food Calories (per 100g)')}
                         value={wetFoodCalories}
@@ -215,7 +215,7 @@ const CatFoodCalculator = () => {
                 <p>
                     <label className="block mb-2">{t('Dry Food Calories (per 100g)')}</label>
                     <input
-                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full"
+                        className="h-10 border border-gray-300 rounded px-2 mb-2 w-full dark:placeholder-gray-400 dark:text-gray-500"
                         type="number"
                         placeholder={t('Dry Food Calories (per 100g)')}
                         value={dryFoodCalories}
@@ -234,11 +234,11 @@ const CatFoodCalculator = () => {
                         value={wetDryRatio}
                         onChange={(e) => setWetDryRatioAndSave(e.target.value)}
                     />
-                    <span className="text-sm text-gray-600 text-center">{(wetDryRatio).toFixed(0)}% / {((100 - wetDryRatio)).toFixed(0)}%</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-400 text-center">{(wetDryRatio).toFixed(0)}% / {((100 - wetDryRatio)).toFixed(0)}%</span>
                 </p>
 
                 {result && (
-                    <div className="flex md:flex-row flex-col gap-8 mt-8 p-8 bg-gray-100 rounded">
+                    <div className="flex md:flex-row flex-col gap-8 my-8 p-8 bg-gray-100 dark:text-gray-500 rounded">
                         <div className="md:w-1/2 w-full text-center">
                             <p className={'text-xl'}>{t('Dry Food')}:</p>
                             <p className={'text-4xl'}>{result.dryFood} g</p>
