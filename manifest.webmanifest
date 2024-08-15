@@ -1,1 +1,1 @@
-{"name":"cat-food-calculator","short_name":"cat-food-calculator","start_url":"./","display":"standalone","background_color":"#ffffff","lang":"en","scope":"./"}
+{"name":"Cat Food Calculator","short_name":"Cat Food calc","start_url":".","display":"standalone","background_color":"#ffffff","lang":"en","scope":"./","icons":[{"src":"./paw-64.png","sizes":"64x64","type":"image/png"},{"src":"./paw-192.png","sizes":"192x192","type":"image/png"},{"src":"./paw-512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#7D53DE"}
