@@ -164,7 +164,7 @@ const CatFoodCalculator = () => {
 
                 <div className="flex flex-wrap mb-4">
                     {catTypeOptions.map((type) => (
-                        <div key={type.value} className="flex items-center mb:w-1/2 w-full mb-2">
+                        <div key={type.value} className="flex items-center w-1/2 mb-2">
                             <input
                                 type="radio"
                                 id={type.value}
