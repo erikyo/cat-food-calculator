@@ -13,7 +13,32 @@ export default defineConfig({
             workbox: {
                 globPatterns: ['**/*.{js,css,html,png,svg}']
             },
-            includeAssets: ['favicon.ico', 'apple-touch-icon.png']
+            includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+            manifest: {
+                "short_name": "Cat Food calc",
+                "name": "Cat Food Calculator",
+                "icons": [
+                    {
+                        "src": "./paw-64.png",
+                        "sizes": "64x64",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "./paw-192.png",
+                        "sizes": "192x192",
+                        "type": "image/png"
+                    },
+                    {
+                        "src": "./paw-512.png",
+                        "sizes": "512x512",
+                        "type": "image/png"
+                    }
+                ],
+                "start_url": ".",
+                "display": "standalone",
+                "theme_color": "#7D53DE",
+                "background_color": "#ffffff"
+            }
         })
     ],
 })
