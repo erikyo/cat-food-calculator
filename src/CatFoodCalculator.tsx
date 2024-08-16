@@ -120,10 +120,10 @@ const CatFoodCalculator = () => {
                     maintenanceCalories *= 1.5; // Lower the multiplier as the kitten approaches adulthood
                 }
                 break;
-            case 'Weight loss':
+            case 'weight-loss':
                 maintenanceCalories *= 0.8;
                 break;
-            case 'Weight gain':
+            case 'weight-gain':
                 maintenanceCalories *= 1.8;
                 break;
             case 'pregnant':
